@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+    body {
+        width: 42in;
+        height: 42in;
+    }
+
+    @page {
+            size: 42in 42in;
+            margin: 0in 0in 0in 0in;
+        }
+    
+    #sideHeader {
+        width: 15in;
+        height: 100%;
+        background-color: #e8842c;
+        margin-top: 0;
+        position: absolute;
+        top: 0;
+        border-radius: 25px;
+}
+
+    #headerBreak {
+        height: 0.1in;
+        width: 14in;
+        background-color: black;
+        left: 0.5in;
+    }
+
+    .p1 {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 180px;
+        font-weight: 900;
+        text-align: left;
+        margin-top: 0;
+        padding-top: 0.5in;
+        padding-left: 0.5in;
+        padding-right: 0.5in;
+    }
+
+    .p2 {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 90px;
+        font-weight: 700;
+        text-align: left;
+        position: absolute;
+        top: 2in;
+        padding-left: 0.5in;
+        padding-right: 0.5in;
+    }
+
+    .p3 {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 65px;
+        font-weight: 500;
+        text-align: left;
+        position: absolute;
+        top: 7.5in;
+        padding-left: 0.5in;
+        padding-right: 0.5in;
+    }
+
+    .p4 {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 55px;
+        font-weight: 500;
+        text-align: left;
+        position: absolute;
+        top: 10in;
+        padding-left: 0.5in;
+        padding-right: 0.5in;
+    }
+
+    #headerHeaderFont {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 90px;
+        font-weight: 700;
+        text-align: left;
+        padding-left: 0.5in;
+        padding-right: 0.5in;
+    }
+
+    #mainText {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 55px;
+        font-weight: 500;
+        text-align: left;
+        padding-left: 0.5in;
+        padding-right: 0.5in;
+    }
+
+    #cactusBase {
+        height: 15in;
+        width: 4in;
+        background-color: #48943c;
+        position: absolute;
+        bottom: 0in;
+        left: 12in;
+        border-radius: 200px 200px 0px 0px;
+    }
+
+    #cactusRightArmLower {
+        height: 2.5in;
+        width: 7in;
+        background-color: #48943c;
+        position: absolute;
+        bottom: 5in;
+        left: 12in;
+        border-radius: 200px 200px 200px 200px;
+    }
+
+    #cactusRightArmUpper {
+        height: 5.5in;
+        width: 2in;
+        background-color: #48943c;
+        position: absolute;
+        bottom: 5in;
+        left: 17in;
+        border-radius: 200px 200px 200px 200px;
+    }
+
+    #cactusLeftArmLower {
+        height: 2.5in;
+        width: 5in;
+        background-color: #48943c;
+        position: absolute;
+        bottom: 7in;
+        left: 9in;
+        border-radius: 200px 200px 200px 200px;
+    }
+
+    #cactusLeftArmUpper {
+        height: 5.5in;
+        width: 2in;
+        background-color: #48943c;
+        position: absolute;
+        bottom: 7in;
+        left: 9in;
+        border-radius: 200px 200px 200px 200px; 
+    }
+</style>
+</head>
+<body>
+    <!--Side header-->
+    <div id="sideHeader">
+        <p class = "p1">Diet or Genetics?</p>
+        <div id="headerBreak" style="position: absolute; top: 7.5in;"></div>
+
+        <p class= "p2">Exploring the contributions of host evolutionary history and diet in shaping the gut microbiota of cactophilic flies</p>
+        <p class="p3">James G. DuBose<sup>1</sup>, Thomas B. Crook<sup>2</sup>, Luciano Matzkin<sup>3</sup>, Tamara S. Haselkorn<sup>2</sup></p>
+        <p class="p4"><sup>1</sup>Emory University, <sup>2</sup>University of Central Arkansas, <sup>3</sup>University of Arizona</p>
+        <div id="headerBreak" style="position: absolute; top: 13in;"></div>
+        <div id="headerHeaderFont" style="position: absolute; text-align: left; padding-left: 0.5in; padding-right: 0.5in; top: 15in">Background</div>
+        <div id="mainText" style="position: absolute; text-align: left; padding-left: 0.5in; padding-right: 0.5in; top: 16.5in">
+            Both host diet and genetics can play important roles in shaping a host's gut microbial community. However, discerning 
+        </div>
+    </div>
+
+    <!--Cactus-->
+    <div>
+        <div id="cactusBase"></div>
+        <div id="cactusRightArmLower"></div>
+        <div id="cactusRightArmUpper"></div>
+        <div id="cactusLeftArmLower"></div>
+        <div id="cactusLeftArmUpper"></div>
+    </div>
+</body>
+</html>
