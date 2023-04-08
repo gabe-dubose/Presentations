@@ -13,20 +13,117 @@
         }
     
     #sideHeader {
-        width: 15in;
+        width: 13in;
         height: 100%;
         background-color: #e8842c;
-        margin-top: 0;
+        margin-top: 0.1in;
+        margin-bottom: 0.1in;
+        margin-left: 0.1in;
         position: absolute;
         top: 0;
-        border-radius: 25px;
-}
+    }
 
     #headerBreak {
         height: 0.1in;
-        width: 14in;
+        width: 12in;
         background-color: black;
         left: 0.5in;
+    }
+
+    #approachHeader {
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+        font-size: 90px;
+        font-weight: 700;
+        height: 1in;
+        width: 13.15in;
+        padding-bottom: 0.2in;
+        background-color: #c83c3c;
+        color: white;
+        margin-top: 0.1in;
+        position: absolute;
+        top: 0in;
+        left: 14in;
+    }
+
+    #approachBox {
+        font-family: "Times New Roman", Times, serif;
+        text-align: left;
+        font-size: 90px;
+        font-weight: 700;
+        height: 15in;
+        width: 13in;
+        border-color: #c83c3c;
+        border-style: solid;
+        border-width: 0.1in;
+        margin-top: 0.1in;
+        position: absolute;
+        top: 0in;
+        left: 14in;
+    }
+
+    #alphaDiversityHeader {
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+        font-size: 90px;
+        font-weight: 700;
+        height: 1in;
+        width: 13.15in;
+        padding-bottom: 0.2in;
+        color: white;
+        background-color: #9874b4;
+        margin-top: 0.1in;
+        position: absolute;
+        top: 0in;
+        left: 28in;
+    }
+
+    #alphaDiversityBox {
+        font-family: "Times New Roman", Times, serif;
+        text-align: left;
+        font-size: 90px;
+        font-weight: 700;
+        height: 15in;
+        width: 13in;
+        border-color: #9874b4;
+        border-style: solid;
+        border-width: 0.1in;
+        margin-top: 0.1in;
+        position: absolute;
+        top: 0in;
+        left: 28in;
+    }
+
+    #betaDiversityHeader {
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+        font-size: 90px;
+        font-weight: 700;
+        height: 1in;
+        width: 27.15in;
+        padding-bottom: 0.2in;
+        background-color: #48943c;
+        color: white;
+        margin-top: 0.1in;
+        position: absolute;
+        top: 16in;
+        left: 14in;
+    }
+
+    #betaDiversityBox {
+        font-family: "Times New Roman", Times, serif;
+        text-align: left;
+        font-size: 90px;
+        font-weight: 700;
+        height: 15in;
+        width: 27in;
+        border-color: #48943c;
+        border-style: solid;
+        border-width: 0.1in;
+        margin-top: 0.1in;
+        position: absolute;
+        top: 16in;
+        left: 14in;
     }
 
     .p1 {
@@ -46,7 +143,7 @@
         font-weight: 700;
         text-align: left;
         position: absolute;
-        top: 2in;
+        top: 4.25in;
         padding-left: 0.5in;
         padding-right: 0.5in;
     }
@@ -57,7 +154,7 @@
         font-weight: 500;
         text-align: left;
         position: absolute;
-        top: 7.5in;
+        top: 9.5in;
         padding-left: 0.5in;
         padding-right: 0.5in;
     }
@@ -68,7 +165,7 @@
         font-weight: 500;
         text-align: left;
         position: absolute;
-        top: 10in;
+        top: 11.9in;
         padding-left: 0.5in;
         padding-right: 0.5in;
     }
@@ -145,18 +242,51 @@
 <body>
     <!--Side header-->
     <div id="sideHeader">
-        <p class = "p1">Diet or Genetics?</p>
-        <div id="headerBreak" style="position: absolute; top: 7.5in;"></div>
+        <p class = "p1" style="color: white;">Eating Cactus Takes Guts</p>
+        <div id="headerBreak" style="position: absolute; top: 9.8in;"></div>
 
         <p class= "p2">Exploring the contributions of host evolutionary history and diet in shaping the gut microbiota of cactophilic flies</p>
         <p class="p3">James G. DuBose<sup>1</sup>, Thomas B. Crook<sup>2</sup>, Luciano Matzkin<sup>3</sup>, Tamara S. Haselkorn<sup>2</sup></p>
         <p class="p4"><sup>1</sup>Emory University, <sup>2</sup>University of Central Arkansas, <sup>3</sup>University of Arizona</p>
-        <div id="headerBreak" style="position: absolute; top: 13in;"></div>
+        <div id="headerBreak" style="position: absolute; top: 14.6in;"></div>
+        <!--Background-->
         <div id="headerHeaderFont" style="position: absolute; text-align: left; padding-left: 0.5in; padding-right: 0.5in; top: 15in">Background</div>
-        <div id="mainText" style="position: absolute; text-align: left; padding-left: 0.5in; padding-right: 0.5in; top: 16.5in">
-            Both host diet and genetics can play important roles in shaping a host's gut microbial community. However, discerning 
+        <div id="mainText" style="position: absolute; text-align: justify; padding-left: 0.5in; padding-right: 0.5in; top: 16.5in">
+            <b>Gut microbial communities</b> often provide functions that have significant implications for their host's fitness.
+            However, understanding how a host's gut microbiome has been shaped by its evolutionary history can be difficult 
+            because <b>the influence of diet can be lesser than, equal to, or greater than host genetic background.</b>
+            <br>
+            <br>
+            Flies in the genus <i>Drosophila</i> have been previously used as model systems for understanding various factors
+            pretaining to gut microbial community shape and function. We propose that the various species of <b>cactophilic <i>Drosophila</i> 
+            native to North America could be a powerful comparative model system</b> for discerning the contributions of host evolutionary  
+            and diet in shaping host gut microbial communities. In this study, we characterize the bacterial gut microbiome 
+            from five cactophilic <i>Drosophila</i> species and compare their <br>diversity and composition to <br><i>D. melanogaster</i>.
+            
+
         </div>
+        <!--Question-->
+        <div id="headerHeaderFont" style="position: absolute; text-align: left; padding-left: 0.5in; padding-right: 0.5in; top: 31in">Questions</div>
     </div>
+
+    <!--Approach Box-->
+    <div id="approachHeader">Study Design</div>
+    <div id="approachBox">
+        <!--<img src="drosophila_phylogeny.png" width="878" height="1080" style="position: absolute; left: 0.1in; top: 3.5in">
+        <img src="D_mojavensis_image.png" width="217" height="109.5" style="position: absolute; left: 9in; top: 4in">
+        <div style="height: 0.05in; width: 2in; position: absolute; top: 4.6in; left: 7in; background-color: black;"></div>
+        <div style="font-family: 'Times New Roman', Times, serif; font-size: 55px; font-weight: 500; position: absolute; top: 4.3in; left: 9in"><i>D. mojavensis</i></div>-->
+    </div>
+
+    <!--Taxabarplot box-->
+    <div id="alphaDiversityHeader">Alpha-Diversity Comparisons</div>
+    <div id="alphaDiversityBox">
+    </div>   
+
+    <!--Beta-Diveristy box-->
+    <div id="betaDiversityHeader">Beta-Diversity: Compositional and Structural Comparisons</div>
+    <div id="betaDiversityBox">
+    </div>   
 
     <!--Cactus-->
     <div>
