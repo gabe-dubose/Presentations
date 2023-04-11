@@ -223,3 +223,12 @@
     left: 9in;
     border-radius: 200px 200px 200px 200px; 
 }
+
+#drosophilaPhylogeny {
+    width: 878px;
+    height: 1080px;
+    position: absolute;
+    left: 0.1in;
+    top: 3.5in;
+
+}
