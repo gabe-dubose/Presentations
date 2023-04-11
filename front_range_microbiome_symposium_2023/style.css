@@ -156,6 +156,15 @@
     padding-right: 0.5in;
 }
 
+#boxMainText {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 65px;
+    font-weight: 800;
+    text-align: left;
+    padding-left: 0.5in;
+    padding-right: 0.5in;
+}
+
 #headerHeaderFont {
     font-family: "Times New Roman", Times, serif;
     font-size: 90px;
@@ -225,10 +234,25 @@
 }
 
 #drosophilaPhylogeny {
-    width: 878px;
-    height: 1080px;
+    width: 658.5px;
+    height: 810px;
     position: absolute;
     left: 0.1in;
-    top: 3.5in;
+    top: 6in;
+}
 
+#mojavensisImage {
+    width: 217px;
+    height: 109.5px;
+    position: absolute;
+    left: 9in;
+    top: 4in;
+}
+
+#organPipeCactus {
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    left: 9in;
+    top: 4in;
 }
