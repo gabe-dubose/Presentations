@@ -183,6 +183,15 @@
     padding-right: 0.5in;
 }
 
+#captionText {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 0.5in;
+    padding-right: 0.5in;
+}
+
 #cactusBase {
     height: 15in;
     width: 4in;
@@ -234,25 +243,41 @@
 }
 
 #drosophilaPhylogeny {
-    width: 658.5px;
-    height: 810px;
+    width: 7.5in;
+    height: 9.23in;
     position: absolute;
     left: 0.1in;
-    top: 6in;
-}
-
-#mojavensisImage {
-    width: 217px;
-    height: 109.5px;
-    position: absolute;
-    left: 9in;
-    top: 4in;
+    top: 4.25in;
 }
 
 #organPipeCactus {
-    width: 260px;
-    height: 260px;
+    width: 2in;
+    height: 2in;
     position: absolute;
-    left: 9in;
-    top: 4in;
+    left: 10.5in;
+    top: 4.25in;
+}
+
+#saguaroCactus {
+    width: 2in;
+    height: 2.67in;
+    position: absolute;
+    left: 10.5in;
+    top: 10in;
+}
+
+#taxabarplot {
+    width: 12in;
+    height: 4.79in;
+    position: absolute;
+    left: 0.1in;
+    top: 3.1in;
+}
+
+#alphaDiversityPlots {
+    width: 12in;
+    height: 4.82in;
+    position: absolute;
+    left: 0.1in;
+    top: 9in;
 }
