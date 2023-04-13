@@ -92,11 +92,9 @@
         <img id="alphaDiversityPlots" src="images/alpha_diversity.png">
         <div id="captionText" style="position: absolute; text-align: justify; padding-left: 0.5in; padding-right: 0.5in; top: 14in">
             <b>Figure 3: </b> Boxplots showing the alpha-diversity of each fly species using different metrics. 
-            No statistically significant differences were observed (p <u>></u>0.24)
+            No statistically significant differences were observed (KW: p <u>></u>0.13)
             </div>
-
-        
-    </div>   
+    </div> 
 
     <!--Beta-Diveristy box-->
     <div id="betaDiversityHeader">Beta-Diversity: Compositional and Structural Comparisons</div>
@@ -104,9 +102,25 @@
         <div id="boxMainText" style="position: absolute; top: 1.4in;">Generalist and specialist fly microbiomes are compositionally similar but structurally distinct</div>
     
         <img id="unweightedUnifracPlot" src="images/unweighted_unifrac_pca.png">
+        <div style="font-family: 'Times New Roman', Times, serif; font-size: 55px; position: absolute; top: 2.7in; left: 5.1in; font-weight: 500;">A</div>
         <img id="weightedUnifracPCA" src="images/weighted_unifrac_pca.png">
-        <img id="weightedUnifracHeatmap" src="images/weighted_unifrac_heatmap.png">
+        <div style="font-family: 'Times New Roman', Times, serif; font-size: 55px; position: absolute; top: 2.7in; left: 10.7in; font-weight: 500;">B</div>
         <img id="aitchisonPCA" src="images/aitchison_pca.png">
+        <div style="font-family: 'Times New Roman', Times, serif; font-size: 55px; position: absolute; top: 2.7in; left: 16.5in; font-weight: 500;">C</div>
+
+        <div id="captionText" style="position: absolute; text-align: justify; padding-left: 0.5in; padding-right: 0.5in; top: 8.6in; width: 16in;">
+            <b>Figure 4: </b> Ordination plots showing 
+            A) Fly gut bacterial microbiome compositional dissimilarities evaluated using Unweighted UniFrac distances. No significant differences between any fly species were found (PERMANOVA: p=0.116)
+            B) Fly gut bacterial microbiome structural dissimilarities using weighted UniFrac distances. Significant differences between generalist and specialist flies were found (PERMANOVA: p=0.001, PERMDISP: p=0.086), and pairwise differences are highlighted in figure 5.
+            C) Fly gut bacterial microbiome structural dissimilarities using Aitchison distances. The same significant results were found as described in B (PERMANOVA: p=0.001, PERMDISP, p=0.379). Vectors indicate bacterial taxa that have significant roles in sample clustering. 
+            </div>
+
+            <div id="mainText" style="position: absolute; top: 12.6in; left: 0.1in;">
+                &#x2022; Compositional comparisons showed no differences betweeen any fly species<br>
+                &#x2022; Strucural comparisons showed differences between generalist and specialist flies<br>
+            </div>
+
+        <img id="weightedUnifracHeatmap" src="images/weighted_unifrac_heatmap.png">
     </div> 
 
 
@@ -115,6 +129,7 @@
     <div id="discussionHeader">Discussion</div>
 
     <!--Cactus-->
+    <!--
     <div>
         <div id="cactusBase"></div>
         <div id="cactusRightArmLower"></div>
@@ -122,5 +137,6 @@
         <div id="cactusLeftArmLower"></div>
         <div id="cactusLeftArmUpper"></div>
     </div>
+    -->
 </body>
 </html>

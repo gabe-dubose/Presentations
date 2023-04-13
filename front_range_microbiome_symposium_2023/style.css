@@ -327,22 +327,22 @@
     width: 8in;
     height: 5.26in;
     position: absolute;
-    left: 9in;
+    left: 5.7in;
     top: 3in;   
-}
-
-#weightedUnifracHeatmap {
-    width: 6in;
-    height: 5.91in;
-    position: absolute;
-    left: 9in;
-    top: 9in;    
 }
 
 #aitchisonPCA {
     width: 8in;
     height: 5.27in;
     position: absolute;
-    left: 18in;
+    left: 11.3in;
     top: 3in; 
+}
+
+#weightedUnifracHeatmap {
+    width: 6in;
+    height: 5.91in;
+    position: absolute;
+    left: 20.5in;
+    top: 3in;    
 }
