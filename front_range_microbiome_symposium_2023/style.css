@@ -112,6 +112,39 @@
     left: 14in;
 }
 
+#discussionHeader {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 700;
+    height: 1in;
+    width: 13.15in;
+    padding-bottom: 0.2in;
+    background-color: #287cb4;
+    color: white;
+    margin-top: 0.1in;
+    position: absolute;
+    top: 32in;
+    left: 14in;
+}
+
+#discussionBox {
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    font-size: 90px;
+    font-weight: 700;
+    height: 10in;
+    width: 13in;
+    background-color: white;
+    border-color: #287cb4;
+    border-style: solid;
+    border-width: 0.1in;
+    margin-top: 0.1in;
+    position: absolute;
+    top: 32in;
+    left: 14in;
+}
+
 .p1 {
     font-family: "Times New Roman", Times, serif;
     font-size: 180px;
@@ -280,4 +313,36 @@
     position: absolute;
     left: 0.1in;
     top: 9in;
+}
+
+#unweightedUnifracPlot {
+    width: 8in;
+    height: 5.28in;
+    position: absolute;
+    left: 0.1in;
+    top: 3in;  
+}
+
+#weightedUnifracPCA {
+    width: 8in;
+    height: 5.26in;
+    position: absolute;
+    left: 9in;
+    top: 3in;   
+}
+
+#weightedUnifracHeatmap {
+    width: 6in;
+    height: 5.91in;
+    position: absolute;
+    left: 9in;
+    top: 9in;    
+}
+
+#aitchisonPCA {
+    width: 8in;
+    height: 5.27in;
+    position: absolute;
+    left: 18in;
+    top: 3in; 
 }
