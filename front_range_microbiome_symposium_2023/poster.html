@@ -12,7 +12,7 @@
 
     @page {
             size: 42in 42in;
-            margin: 0in 0in 0in 0in;
+            margin: 0.25in 0in 0.25in 0.25in;
         }
     
 </style>
@@ -32,19 +32,23 @@
         <div id="mainText" style="position: absolute; text-align: justify; padding-left: 0.5in; padding-right: 0.5in; top: 16.5in">
             <b>Gut microbial communities</b> often provide functions that have significant implications for their host's fitness.
             However, understanding how a host's gut microbiome has been shaped by its evolutionary history can be difficult 
-            because <b>the influence of diet can be lesser than, equal to, or greater than host genetic background.</b>
+            because <b>the influence of diet can be lesser or greater than host genetic background</b> (1,2).
             <br>
             <br>
             Flies in the genus <i>Drosophila</i> have been previously used as model systems for understanding various factors
             pretaining to gut microbial community shape and function. We propose that the various species of <b>cactophilic <i>Drosophila</i> 
-            native to North America could be a powerful comparative model system</b> for discerning the contributions of host evolutionary  
-            and diet in shaping host gut microbial communities. In this study, we characterize the bacterial gut microbiome 
-            from five cactophilic <i>Drosophila</i> species and compare their <br>diversity and composition to <br><i>D. melanogaster</i>.
-            
-
+            native to North America could be a powerful comparative model system</b> for discerning the contributions of host evolution  
+            and diet in shaping host gut<br> microbial communities. In this study, <br>we compare the bacterial <br>gut microbiomes 
+            from three obligate <br>cactus feeding <i>Drosophila</i><br> species to two sympatric<br> dietary generalists.
         </div>
         <!--Question-->
         <div id="headerHeaderFont" style="position: absolute; text-align: left; padding-left: 0.5in; padding-right: 0.5in; top: 31in">Questions</div>
+        <div id="mainText" style="position: absolute; text-align: justify; padding-left: 0.5in; padding-right: 0.5in; top: 32.5in">
+
+            By comparing cactus <br>specialist and generalist <br>flies, we first asked if <br>a dietary generalist differ from<br> specialists in terms of gut bacterial<br> diversity.
+            We initially hypothesized <br>that because they encounter a wider<br> array of foods, <b>generalists would have<br> more diverse gut microbiomes.</b><br>
+            We then asked if fly <b>diet or relatedness <br>is more predictive of gut microbial<br> composition and structure.</b>
+        </div>
     </div>
 
     <!--Approach Box-->
@@ -91,7 +95,7 @@
 
         <img id="alphaDiversityPlots" src="images/alpha_diversity.png">
         <div id="captionText" style="position: absolute; text-align: justify; padding-left: 0.5in; padding-right: 0.5in; top: 14in">
-            <b>Figure 3: </b> Boxplots showing the alpha-diversity of each fly species using different metrics. 
+            <b>Figure 3: </b> Boxplots showing various alpha-diversity metrics of each fly species. 
             No statistically significant differences were observed (KW: p <u>></u>0.13)
             </div>
     </div> 
@@ -112,12 +116,18 @@
             <b>Figure 4: </b> Ordination plots showing 
             A) Fly gut bacterial microbiome compositional dissimilarities evaluated using Unweighted UniFrac distances. No significant differences between any fly species were found (PERMANOVA: p=0.116)
             B) Fly gut bacterial microbiome structural dissimilarities using weighted UniFrac distances. Significant differences between generalist and specialist flies were found (PERMANOVA: p=0.001, PERMDISP: p=0.086), and pairwise differences are highlighted in figure 5.
-            C) Fly gut bacterial microbiome structural dissimilarities using Aitchison distances. The same significant results were found as described in B (PERMANOVA: p=0.001, PERMDISP, p=0.379). Vectors indicate bacterial taxa that have significant roles in sample clustering. 
+            C) Fly gut bacterial microbiome structural dissimilarities using Aitchison distances. The same significant results were found as described in B (PERMANOVA: p=0.001, PERMDISP, p=0.379). Vectors indicate bacterial taxa that had significant roles in sample clustering. 
             </div>
 
             <div id="mainText" style="position: absolute; top: 12.6in; left: 0.1in;">
                 &#x2022; Compositional comparisons showed no differences betweeen any fly species<br>
                 &#x2022; Strucural comparisons showed differences between generalist and specialist flies<br>
+                &#x2022; <i>Lactococcus lactis</i> and <i>Acetobacter persici</i> are significant contributors to sample clustering<br>
+            </div>
+
+            <div id="captionText" style="position: absolute; text-align: justify; left: 20in; padding-right: 0.5in; top: 8.6in; width: 6in;">
+                <b>Figure 5: </b> Heatmap showing mean pariwise weighted UniFrac distances between each fly species gut microbial communities. Clustering 
+                patterns show differences between the generalist flies and specialist flies, and mirror statistically significant pairwise comparisons
             </div>
 
         <img id="weightedUnifracHeatmap" src="images/weighted_unifrac_heatmap.png">
@@ -125,11 +135,28 @@
 
 
     <!--Discussion Box-->
-    <div id="discussionBox"></div>
+    <div id="discussionBox">
+        <div id="mainText" style="position: absolute; text-align: justify; left: 3in; padding-right: 0.5in; top: 1.25in">
+            &#x2022; Generalist diets might select for more specific generalist bacteria, not more diverse microbiomes (3,4)<br>
+            &#x2022; Gut microbes might not have function for the host<br>
+        </div>
+        <div id="mainText" style="position: absolute; text-align: justify; left: 1in; padding-right: 0.5in; top: 4.5in">
+            &#x2022; Compositional similarities but structural differences could indicate that a conserved set of microbes proficiently colonize 
+            host flies, but diet then shapes community dynamics (5)
+        </div>
+
+    </div>
     <div id="discussionHeader">Discussion</div>
 
+    <!--Future directions box-->
+    <div id="futureDirectionsHeader">Future Directions</div>
+    <div id="futureDirectionsBox"></div>
+
+    <div id="referencesHeader">References</div>
+    <div id="referencesBox"></div>
+
     <!--Cactus-->
-    <!--
+
     <div>
         <div id="cactusBase"></div>
         <div id="cactusRightArmLower"></div>
@@ -137,6 +164,6 @@
         <div id="cactusLeftArmLower"></div>
         <div id="cactusLeftArmUpper"></div>
     </div>
-    -->
+
 </body>
 </html>
