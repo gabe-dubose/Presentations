@@ -237,7 +237,7 @@
     font-weight: 500;
     text-align: left;
     position: absolute;
-    top: 9.5in;
+    top: 9.7in;
     padding-left: 0.5in;
     padding-right: 0.5in;
 }
@@ -248,7 +248,7 @@
     font-weight: 500;
     text-align: left;
     position: absolute;
-    top: 11.9in;
+    top: 12.1in;
     padding-left: 0.5in;
     padding-right: 0.5in;
 }
@@ -291,11 +291,38 @@
 
 #referencesText {
     font-family: "Times New Roman", Times, serif;
-    font-size: 45px;
+    font-size: 25px;
     font-weight: 500;
     text-align: left;
     padding-left: 0.5in;
     padding-right: 0.5in; 
+}
+
+#subPhylogenyBlankerBox {
+    height: 5.6in;
+    width: 2in;
+    background-color: white;
+    position: absolute;
+    top: 4.5in;
+    left: 0.49in;
+}
+
+#subPhylogenyBlankerBox2 {
+    height: 5.2in;
+    width: 2in;
+    background-color: white;
+    position: absolute;
+    top: 4.6in;
+    left: 0.68in; 
+}
+
+#subPhylogenyBlankerBox3 {
+    height: 2in;
+    width: 1in;
+    background-color: white;
+    position: absolute;
+    top: 4.4in;
+    left: 1.9in;
 }
 
 #cactusBase {
